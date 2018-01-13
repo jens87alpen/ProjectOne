@@ -11,7 +11,7 @@ body {
 	display: inline-block;
 	cursor:pointer;
 	color: white;
-	font-family: 'Bebas Neue';
+	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing: 2px;
 	font-size: 2em;
 	padding: 16px 31px;
@@ -27,7 +27,7 @@ body {
 	display: inline-block;
 	cursor:pointer;
 	color: white;
-	font-family: 'Bebas Neue';
+	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing: 2px;
 	font-size: 2em;
 	padding: 16px 31px;
@@ -42,7 +42,7 @@ body {
 
 .first-line h1 {
 	color: white;
-	font-family: 'Bebas Neue';
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 7em;
 	text-align: center;
 	letter-spacing: 2px;
@@ -51,7 +51,7 @@ body {
 
 .first-line h3 {
 	color: white;
-	font-family: 'Bebas Neue';
+	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 4em;
 	text-align: center;
 	letter-spacing: 3px;
@@ -62,7 +62,7 @@ body {
 	background-color: #FFCC00;
 	text-align: center;
 	color: white;
-	font-family: 'Bebas Neue';
+	font-family: 'Roboto Condensed', sans-serif;
 	letter-spacing: 2px;
 	font-size: 3em;
 	padding: 16px 31px;	
@@ -124,3 +124,71 @@ body {
   left: 250px;
 }
 
+
+
+@media(max-width: 1366px) {
+	
+	body {
+		background-image: url(Assets/back.png);
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 768px;
+		
+	}
+
+	.upperButton button {
+		background-color: transparent;
+		border: 1px solid white;
+		display: inline-block;
+		cursor:pointer;
+		color: white;
+		font-family: 'Roboto Condensed', sans-serif;
+		letter-spacing: 1px;
+		font-size: 10px;
+		padding: 8px 20px;
+		text-decoration: none;
+		margin-top: 4px;
+		opacity: 0.85;
+	}
+
+	.beer-of-the-week button {
+		background-color: #FFCC00;
+		text-align: center;
+		color: white;
+		font-family: 'Roboto Condensed', sans-serif;
+		letter-spacing: 1px;
+		font-size: 1.5em;
+		padding: 12px 24px;	
+		text-shadow: 2px 2px 2px black;
+	}
+
+	.first-line h1 {
+		color: white;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 6em;
+		text-align: center;
+		letter-spacing: 1px;
+		margin-top: -100px;	
+	}
+
+	.first-line h3 {
+		color: white;
+		font-family: 'Roboto Condensed', sans-serif;
+		font-size: 2em;
+		text-align: center;
+		letter-spacing: 2px;
+	}
+
+	.show img {
+		position: relative;
+		width: 110%;
+		margin-top: -137px;
+		margin-left: -150px;
+	}
+
+	
+}
+
+@media(max-width: 1280px) {
+	
+}

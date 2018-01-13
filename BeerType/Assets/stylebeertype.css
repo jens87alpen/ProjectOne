@@ -101,7 +101,7 @@ body {
 	background-color: black;
 	color: white;
 	margin-top: 50px;
-	height: 750px;
+	height: 700px;
 	width: 100%;
 	opacity: 0.85;
 	position: absolute;
@@ -120,7 +120,7 @@ body {
 	background-color: black;
 	color: white;
 	margin-top: 50px;
-	height: 750px;
+	height: 700px;
 	width: 100%;
 	opacity: 0.85;
 	position: absolute;
@@ -168,13 +168,14 @@ body {
 		background-image: url(beertype.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-size: 100% auto;
+		
+		height: 768px;
 	}
 
 	.background {
 		background-color: black;
 		color: white;
-		margin-top: 80px;
+		margin-top: 220px;
 		height: 350px;
 		width: 75%;
 		opacity: 0.85;
@@ -228,6 +229,44 @@ body {
 		background-color: black;
 		margin: 10px;
 	}
+
+	.showAle {
+		background-color: black;
+		color: white;
+		margin-top: 40px;
+		height: 650px;
+		width: 95%;
+		opacity: 0.85;
+		position: absolute;
+		font-family: 'Bebas Neue';
+		letter-spacing: 1px;
+		font-size: 1.5em;
+		text-align: center;
+		border-radius: 25px;
+	}
+
+.showAle h1 {
+		font-size: 2em
+	}
+
+.showStout {
+		background-color: black;
+		color: white;
+		margin-top: 40px;
+		height: 650px;
+		width: 95%;
+		opacity: 0.85;
+		position: absolute;
+		font-family: 'Bebas Neue';
+		letter-spacing: 1px;
+		font-size: 1.5em;
+		text-align: center;
+		border-radius: 25px;
+	}
+
+.showStout h1 {
+		font-size: 2em
+	}
 }
 
 @media(max-width: 1280px) {
@@ -235,13 +274,13 @@ body {
 		background-image: url(beertype.png);
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-size: 100% auto;
+		height: 720px;
 	}
 
 	.background {
 		background-color: black;
 		color: white;
-		margin-top: 80px;
+		margin-top: 180px;
 		height: 350px;
 		width: 75%;
 		opacity: 0.85;
